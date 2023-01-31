@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+main.opesuma{
+    width: 100%;
+    max-width: 900px;
+    background-color:rgba(255, 228, 196, 0.87);
+    margin: 7% auto;
+}
+div.letra{
+    width: 100%;
+    background-color: darkslategrey;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    font-family:'Bungee Spice', cursive;
+}
+.resul{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-family: fantasy;
+}
+.conten{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+    font-size: 30px;
+}
+.conten .espacio{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+.opesuma .botonac{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.opesuma .inicio{
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    font-family: fantasy;
+    font-size: 15px;
+    border: none;
+    background-color: darkslategrey;
+}
+.mul{
+    font-size: 50px;
+}
+.opesuma .botonac .boton{
+    font-size: 20px;
+    width: 150px;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+    background-color: rgb(47, 79, 79);
+    font-family:fantasy;
+}
+.boton:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    box-shadow: 10px 3px 20px darkslategrey;
+}
+div.volver{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+.todo{
+    width: 100%;
+     display:flex;
+}
+
+
+
+
+
+
+
+/* @media */
+@media screen and (max-width:847px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    main.opesuma{
+        width: 100%;
+        display: flex;
+        flex-direction: column  ;
+        background:none;
+    }
+    .mul{
+        font-size: 35px;
+    }
+    div.letra{
+        width: 100%;
+        background-color: darkslategrey;
+        display: flex;
+        font-size: 60px;
+        justify-content: center;
+        font-family:'Bungee Spice', cursive;
+    }
+    .todo{
+        width: 100%;
+         display:flex;
+         flex-direction: column;
+         margin-bottom: 50px;
+    }
+    h1{
+        font-family: fantasy;
+    }
+    .conten {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5% auto;
+    }
+    .conten .espacio{
+        width: 150px;
+        height: 90px;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+        border: 2px solid black ;
+        font-family: fantasy;
+        text-align: center;
+    }
+    .resul{
+        width: 40%;
+        height: 50px;
+        display: flex;
+        font-family:monospace ;
+        color: #ff0000;
+        justify-content: center;
+        background-color: aliceblue;
+    }
+    .opesuma .botonac{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .opesuma .inicio{
+        padding: 15px;
+        text-align: center;
+        cursor: pointer;
+        margin: 5px;
+        font-family: fantasy;
+        font-size: 25px;
+        border: none;
+        background-color: darkslategrey;
+    }
+    .opesuma .botonac .boton{
+        border: none;
+        font-size: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(47, 79, 79);
+        font-family:fantasy;
+        margin-top: 2%;
+    }
+    .boton:hover{
+        transform: none;
+        transition:none;
+        box-shadow: none;
+    }
+    div.volver{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+    }
+}
+@media screen and (max-width:350px){
+    .mul{
+       font-size: 25px;
+    }
+}
